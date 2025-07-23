@@ -4,7 +4,7 @@ E&TC-A2
 
 24070123031
 
-# 💡 Experiment 3: Bitwise Operators in C++
+# 💡 Experiment 4: Bitwise Operators in C++
 
 ## 🎯 Aim
 To study and implement **bitwise operators** in C++.
