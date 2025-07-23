@@ -4,104 +4,69 @@ E&TC-A2
 
 24070123031
 
-# 🧪 Experiment 4 - Decision Making in C++
+# 💡 Experiment 3: Bitwise Operators in C++
 
 ## 🎯 Aim
-To study and implement decision-making statements in C++, including:
-- `if` and `else` statements
-- `else-if` ladder
-- Nested `if` statements
+To study and implement **bitwise operators** in C++.
 
 ---
 
-## 🧠 Theory
+## 📚 Theory
 
-In programming, decision-making is essential for controlling the flow of execution. C++ provides structured ways to make decisions based on conditions using conditional statements.
+Bitwise operators perform operations on the **binary representations** of integers. These are useful for low-level programming, embedded systems, and performance-critical applications.
 
-### 1️⃣ if Statement
-Executes a block of code only when a given condition is true.
+### 👉 Bitwise Operators:
+| Operator | Description        | Example     |
+|----------|--------------------|-------------|
+| `&`      | AND                | `a & b`     |
+| `|`      | OR                 | `a | b`     |
+| `^`      | XOR                | `a ^ b`     |
+| `~`      | One’s complement   | `~a`        |
+| `<<`     | Left shift         | `a << 1`    |
+| `>>`     | Right shift        | `a >> 1`    |
 
-**Syntax:**
-```cpp
-if (condition) {
-    // code to execute
-}
-```
-
-### 2️⃣ if-else Statement
-Provides two different paths based on a true or false condition.
-
-**Syntax:**
-```cpp
-if (condition) {
-    // code if true
-} else {
-    // code if false
-}
-```
-
-### 3️⃣ else-if Ladder
-Used to check multiple conditions one after another.
-
-**Syntax:**
-```cpp
-if (condition1) {
-    // block 1
-} else if (condition2) {
-    // block 2
-} else {
-    // default block
-}
-```
-
-### 4️⃣ Nested if Statement
-Allows checking inner conditions when an outer condition is true.
-
-**Syntax:**
-```cpp
-if (condition1) {
-    if (condition2) {
-        // code if both conditions are true
-    }
-}
-```
+> These operations are performed **bit by bit**.
 
 ---
 
-## ⚙️ Procedure
-
-1. Create a new C++ file using your IDE.
-2. Include the necessary header (`#include <iostream>`) and use the `main()` function.
-3. Declare required variables.
-4. Use different conditional statements:
-   - Check if a number is positive or negative
-   - Compare values using relational operators
-   - Categorize marks or input ranges
-5. Print the output using `cout`.
-6. Compile and run the program for different test inputs.
+## 🧠 Key Concepts Demonstrated
+- Understanding binary equivalents of integers
+- Performing AND, OR, XOR, NOT operations
+- Using bit shifts to multiply/divide by powers of 2
 
 ---
 
-## 🔍 Learning Outcomes
-
-- Understood how conditions control execution flow in C++
-- Applied decision-making logic using `if`, `else`, and nested structures
-- Learned to combine logical and relational operators in conditions
-- Practiced writing structured and readable code
-
----
-
-## 📌 Key Concepts Covered
-
-- Conditional structures in C++
-- Relational operators: `==`, `!=`, `<`, `>`, `<=`, `>=`
-- Logical operators: `&&`, `||`, `!`
-- Nested decision logic
+## 🧪 Procedure
+1. Start your C++ program with:
+   ```cpp
+   #include <iostream>
+   using namespace std;
+   ```
+2. Declare integer variables and assign values.
+3. Apply bitwise operators and display the result.
+4. Run the code and observe the output.
 
 ---
 
-## 📝 Experiment Summary
+## ⚠️ Note
+- C++ does not have a built-in way to **display binary**, so results will be in decimal form unless additional logic is used.
 
-In this experiment, we explored how C++ enables decision-making in programs. By using `if`, `if-else`, `else-if`, and nested conditions, we controlled the program's behavior based on inputs. This forms the foundation for writing interactive and responsive code in real-world applications.
+---
+
+## ✅ Sample Output
+Performs and shows results of:
+- `a & b`
+- `a | b`
+- `a ^ b`
+- `~a`
+- `a << 1`
+- `a >> 1`
+
+---
+
+## 🎓 Experiment Summary
+- Understood how bitwise operators manipulate data at the binary level
+- Explored how shifting bits can simulate multiplication/division
+- Learned how to use low-level operations for performance or hardware programming
 
 ---
